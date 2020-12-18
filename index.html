@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js%22%3E%22/%3E" > </script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    
+    <link rel="stylesheet" href="css/mystile.css">
+    <title>Travel with US</title>
+    
+    
+  </head>
+
+  <header  class="site-header inicio">
+    <div class="contenedor contenido-header">
+      <div class="barra">
+          <a href="#">
+          <img src="img/logo.svg" alt="" srcset="">
+        </a>
+        <nav  class="nav-link">
+          <a  href="#header">Nosotros</a>
+          <a  href="#video">Anuncios</a>
+          <a  href="#form">Contactanos</a>
+        </nav>
+      </div>
+
+      <h1>Viaja Comodo y Seguro Con <img id="header-img" src="img/uss.svg" alt=""></h1>
+    
+    </div>
+  </header>
+
+  <body>
+    <section id="us" class="contenedor seccion">
+      <h2 id="header" class="fw-300 centrar-texto">¿Porque viajar con US?</h2>
+      <div class="iconos-nosotros">
+        <div class="iconos">
+          <h3>Seguridad</h3>
+          <p>
+            Ofremos segurad al viajero otorgandole un seguro de viaje de hasta
+            10,000 USD, asistencia personalidada y asistencia en el camino, para
+            que las personas no se sientan solas.
+          </p>
+        </div>
+
+        <div class="iconos">
+          <h3>El mejor precio</h3>
+          <p>
+            Nuestros precios son los mejores del mercados, existen varios
+            paquetes para todo tipo de personas y grupos, ademas ofrecemos
+            decuentos de hasta 25% a grupos de estudiantes.
+          </p>
+        </div>
+
+        <div class="iconos">
+          <h3>Calidad</h3>
+          <p>
+            Todo el viaje es de una excelente calidad desde que salen de su
+            hogar ya que nuestra meta es las pesonas experiementen un viaje
+            inolvidable.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="video" class="imagen-contacto">
+        <div class="contenedor contenido-contacto centrar-texto">
+
+            <h2>Viaja con las medidadas de prevencion</h2>
+            <p>Es nuesta meta que regresen sanos y salvos a casa por eso pedimos a todos nuestros usuarios que al momento de realizar su viaje tomen las medidas de prevencion para que de esta manera evitemos el contagio.
+                En caso de ser contagiados durante el viaje entrara el seguro de US.</p>
+            <iframe  width="560" height="315" src="https://www.youtube.com/embed/owQ2aVUnfkA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+    <main class="contenedor seccion contenido-centrado">
+        <h2 class="fw-300 centrar-texto">En Caso de Querer ser Contactado Llene el Formulario</h2>
+    <form id="form" class="contacto" action="">
+        <fieldset>
+
+            <legend>Informacion Personal</legend>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Tu nombre">
+
+            <label for="email">E-mail:</label>
+            <input type="email" id=email placeholder="Tu Correo electronico" required>
+
+
+            <label for="telefono">Telefono:</label>
+            <input type="tel" id="telefono" placeholder="Tu Telefono" required>
+
+            <label for="mensaje">Mensaje para nuestros agentes:</label>
+            <textarea id="mensaje"></textarea>
+        </fieldset>
+
+        <input id="email" type="submit" value="Enviar">
+
+    </form>
+</main>
+
+
+
+    <footer class="site-footer seccion">
+      
+            <p class="copyright">Todos los Derechos recervados 2019 &copy; </p>
+        </div>
+    </footer>
+  </body>
+</html>
